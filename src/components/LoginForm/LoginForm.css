@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&display=swap');
+
+.loginform {
+    margin: 10px auto;
+    padding: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.field {
+    background-color: white;
+    font-family: sans-serif;
+    width: 250px;
+    height: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.buttonlogin {
+    padding: 10px;
+    width: 200px;
+    background-color: transparent;
+    display: flexbox;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    font-size: 0.8rem;
+    transition: color 0.2s;
+    margin-bottom: 20px;
+}
+
+.buttonlogin:hover {
+    background-color: black;
+    color: white;
+}

@@ -1,6 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400&display=swap');
+
+
 #project-list {
+  background-color: whitesmoke;
   display: grid;
+  justify-content: center;
   grid-template-columns: 30% 30% 30%;
   column-gap: 10px;
   row-gap: 10px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.others {
+  background-color: whitesmoke;
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.project-details {
+  background-color: white;
+  padding-top: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.home,
+.donate,
+.projects,
+.login {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.donate {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.projects {
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.login {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
